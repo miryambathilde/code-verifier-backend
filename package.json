@@ -1,5 +1,5 @@
 {
-  "name": "code-verifier-backend",
+  "name": "code-verifier-backend-exercises",
   "version": "1.0.0",
   "description": "Backend Node + Express + TypeSript + Swagger",
   "main": "index.js",

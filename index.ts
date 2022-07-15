@@ -29,6 +29,18 @@ app.get('/hello', (req: Request, res: Response) => {
   res.send('Welcome to GET route: ¡Hello!')
 })
 
+// create route get with json format, as response, with the following estructure “data”: { “message”: “Goodbye, world” }  and “status”: 200
+app.get('/goodbye', (req: Request, res: Response) => {
+  // Send Goodbye World to the client - response json
+  res.json({
+    data: {
+      message: 'Goodbye, world'
+    }
+  })
+}, (err: Error) => {
+  console.log('Something went wrong... ', err)
+})
+
 // Execute APP and Listen Request to port
 app.listen(port, () => {
   console.log(`EXPRESS SERVER: Running at http://localhost:${port}`)
