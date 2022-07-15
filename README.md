@@ -42,7 +42,7 @@ Para ello es necesario tener instalado previamente [Node](https://nodejs.org/es/
     permite definir elementos externos indicando los módulos que no se deben agrupar. Cuando se empaqueta con Webpack para el back-end, generalmente no desea empaquetar sus node_modulesdependencias. Esta biblioteca crea una función externa que ignora node_modulescuando se empaqueta en Webpack.
 
 - [SuperTest](https://www.npmjs.com/package/supertest):
-    proporcionar una abstracción de alto nivel para probar HTTP, al mismo tiempo que le permite descender a la API de nivel inferior proporcionada por superagent.
+    proporciona una abstracción de alto nivel para probar HTTP, al mismo tiempo que le permite descender a la API de nivel inferior proporcionada por superagent.
 
 - [Serve](https://www.npmjs.com/package/serve):
     permite servir nuestro coverage de test a través de una interface web
