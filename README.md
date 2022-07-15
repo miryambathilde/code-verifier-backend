@@ -38,7 +38,7 @@ Para ello es necesario tener instalado previamente [Node](https://nodejs.org/es/
 - [Webpack CLI](https://www.npmjs.com/package/webpack-cli):
     con esto le damos soporte de comandos Webpack a nuestra consola.
 
-- [Webpack CLI](https://www.npmjs.com/package/webpack-node-externals):
+- [Webpack Node Externals](https://www.npmjs.com/package/webpack-node-externals):
     permite definir elementos externos indicando los módulos que no se deben agrupar. Cuando se empaqueta con Webpack para el back-end, generalmente no desea empaquetar sus node_modulesdependencias. Esta biblioteca crea una función externa que ignora node_modulescuando se empaqueta en Webpack.
 
 - [SuperTest](https://www.npmjs.com/package/supertest):
